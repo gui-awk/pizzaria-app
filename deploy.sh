@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# --- Minimal config (override via env if needed) ---
+# --- Variables config ---
 REPO_URL="${REPO_URL:-https://github.com/gui-awk/pizzaria-app.git}"
 APP_DIR="${APP_DIR:-/opt/pizzaria-app}"
 BRANCH="${BRANCH:-main}"
